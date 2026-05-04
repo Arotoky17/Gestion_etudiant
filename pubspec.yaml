@@ -1,0 +1,40 @@
+name: gestio_etudiant
+description: Application Flutter pour gérer les étudiants avec un compte admin.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+  flutter: ">=3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  # Gestion d'état
+  provider: ^6.0.5
+  # Persistance locale
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  # Animations et UI
+  flutter_staggered_animations: ^1.1.1
+  shimmer: ^3.0.0
+  # Utilitaires
+  uuid: ^4.1.0
+  intl: ^0.19.0
+  # Stockage sécurisé
+  flutter_secure_storage: ^10.0.0
+  # Partage et export
+  share_plus: ^12.0.2
+  pdf: ^3.10.4
+  printing: ^5.12.0
+  image_picker: ^1.2.2
+  flutter_svg: ^2.2.4
+  path: ^1.9.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  # Tests
+  mockito: ^5.4.4
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

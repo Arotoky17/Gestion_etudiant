@@ -1,0 +1,18 @@
+# Flutter
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-deps
+.flutter-versions
+.packages
+.pub-cache/
+.pub/
+# IntelliJ
+*.iml
+.idea/
+# VS Code
+.vscode/
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
